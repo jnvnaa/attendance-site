@@ -1,0 +1,89 @@
+{
+  "configVersion": 1,
+  "timestamp": 1694354180938,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.d0692725bcd50633.js",
+        "/manifest.webmanifest",
+        "/polyfills.55a8817a242812fe.js",
+        "/runtime.621d55bd494fec51.js",
+        "/styles.ef46db3751d8e999.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/wasm/index.d.ts",
+        "/assets/wasm/index.js",
+        "/assets/wasm/index.js.map",
+        "/assets/wasm/ngx-scanner-qrcode.wasm"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/icons/icon-128x128.png": "9ee02313b23bac1d8a77ba848779bf3784cc7d35",
+    "/assets/icons/icon-144x144.png": "fd5398535dc6de8517e16116f6497f89de85fe84",
+    "/assets/icons/icon-152x152.png": "a2bb80078472524f4572667c362aaa0008cd6ce8",
+    "/assets/icons/icon-192x192.png": "b3c06187e6a817eedf6f2e54d5e215acb46dcacc",
+    "/assets/icons/icon-384x384.png": "6a10e476315a0180a62dc4a79b05c1df6f381965",
+    "/assets/icons/icon-512x512.png": "33fee0aae027444262b95b0244381d6c01a8f62a",
+    "/assets/icons/icon-72x72.png": "7a3db4425d4059e1fa4701939fb0eabd4bcc4fd0",
+    "/assets/icons/icon-96x96.png": "43b972e34a79c7e5a84b86e7ecf75dfc915c1d45",
+    "/assets/wasm/index.d.ts": "2809f4fbbc7e5d49b139d2136cb69f4b79f59de4",
+    "/assets/wasm/index.js": "6e132e6c0108741d611d078976cadf3e5a26bfba",
+    "/assets/wasm/index.js.map": "658c915133aa2dcf6f2d39a925b450d1c9239f94",
+    "/assets/wasm/ngx-scanner-qrcode.wasm": "62ae0d201db6c5ee5c5ff5071d1a5a5f99a8e4fc",
+    "/favicon.ico": "04c278dba3e54393c4c980f7fd4dcd43796ef813",
+    "/index.html": "5db5a0669e56501cfb5b6557d528bd96a71ba868",
+    "/main.d0692725bcd50633.js": "232c429ccb79d3e5930141c4fc167b5698f83f4a",
+    "/manifest.webmanifest": "0fad80b764b96840e316107e230c6b8fb328e733",
+    "/polyfills.55a8817a242812fe.js": "d279066b042637aefbdcb9bc70f72ee936017750",
+    "/runtime.621d55bd494fec51.js": "82fd33aa0d52b5f49b864d6ca4b708ace4d38978",
+    "/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

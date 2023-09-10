@@ -10,6 +10,9 @@ MIT
 @angular/router
 MIT
 
+@angular/service-worker
+MIT
+
 ngx-scanner-qrcode
 LGPL-2.1+
 
